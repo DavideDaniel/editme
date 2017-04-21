@@ -47,6 +47,7 @@ const write = (str = versionLine, line = 3) => {
     return Promise.resolve(readmeLines.join('\n'))
   }).then(lines => {
     return writeFile(readmeInPath, lines)
+      .then(() => console.log(`Updated ${readmeInPath} with ${str}`))
   })
 }
 
