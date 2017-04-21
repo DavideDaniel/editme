@@ -12,7 +12,7 @@ Just a simple cli tool to edit the README at cwd. Main purpose was to automate a
 ##### Use
 ```bash
 Usage
-  $ edit <cmd> <options>
+  $ editme <cmd> <options>
 
   Commands
     -w, --write               write to README at current working directory

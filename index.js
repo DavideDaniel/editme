@@ -24,10 +24,10 @@ const parsedPkg = JSON.parse(pkgData)
 const versionLine = `###### v ${parsedPkg.version}`;
 const cliVersion = JSON.parse(readSync('package.json', 'utf8')).version;
 const helpTxt = `
-  edit-readme v ${cliVersion}
+  editme v ${cliVersion}
 
   Usage
-    $ edit <cmd> <options>
+    $ editme <cmd> <options>
 
     Commands
       -w, --write               write to README at current working directory
