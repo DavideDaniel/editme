@@ -1,0 +1,15 @@
+{
+  "name": "editme",
+  "version": "0.1.0",
+  "description": "Update your README with current package version",
+  "main": "index.js",
+  "bin": {
+    "edit": "index.js"
+  },
+  "author": "David Daniel, <david.daniel@nike.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "pify": "^2.3.0"
+  }
+}
