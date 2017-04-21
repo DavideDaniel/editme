@@ -1,7 +1,7 @@
 {
   "name": "editme",
   "version": "1.0.0",
-  "description": "Update your README with current package version",
+  "description": "Edit your README from the command line",
   "author": "David Daniel",
   "license": "MIT",
   "main": "index.js",
