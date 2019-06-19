@@ -1,12 +1,17 @@
-### Editme
+# editme
 
-###### v 1.1.0
+<p>
+  <img src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-Just a simple cli tool to edit the README at cwd. Main purpose was to automate adding package version to markdown in README.
+> Edit your README from the command line
 
-##### Install
-```bash
-  $ npm i editme --save-dev
+## Install
+
+```sh
+yarn add -D editme
+# or
+npm i editme --save-dev
 ```
 
 ##### Use
@@ -22,3 +27,5 @@ Usage
     -l, --line                option to specify custom line to append to (default is line 2)
     -v, --version             get cli package version
 ```
+<!-- ## Documentation -->
+<!-- automation docs injection point -->
