@@ -1,7 +1,7 @@
 # editme
 
 <p>
-  <img src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > Edit your README from the command line

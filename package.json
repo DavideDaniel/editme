@@ -8,6 +8,9 @@
   "bin": {
     "editme": "index.js"
   },
+  "scripts": {
+    "bump:readme": "node index.js -w -m 'version-(.*?)-blue' -c \"version-$npm_package_version-blue\""
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/DavideDaniel/editme"
