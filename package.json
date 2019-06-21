@@ -9,7 +9,8 @@
     "editme": "index.js"
   },
   "scripts": {
-    "bump:readme": "node index.js -w -m 'version-(.*?)-blue' -c \"version-$npm_package_version-blue\""
+    "bump:readme": "node index.js -w -m 'version-(.*?)-blue' -c \"version-$npm_package_version-blue\"",
+    "bump": "bump --prompt --commit --push"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "dependencies": {
     "minimist": "^1.2.0",
     "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "version-bump-prompt": "^3.1.0"
   }
 }
